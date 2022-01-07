@@ -24,7 +24,7 @@
             /*width: auto;*/
             max-height: 300px;
             max-width: 300px;
-            border-radius: 50%;
+            border-radius: 30%;
             overflow: hidden;
         }
 
@@ -82,6 +82,31 @@
         html {
             scroll-behavior: smooth;
         }
+
+        .corBotao{
+            color:rgb(92, 221, 178);
+        }
+
+        .botaoRetorno {
+            position:fixed;
+            right: 50px;
+            bottom: 100px;
+            color: white;
+            border-radius: 10%;
+            
+        }
+
+        .tamanhoImagem {
+            width: 30px;
+            height: 30px;
+        }
+
+        .scrollToTop {
+            display: none !important;
+        }
+        body {
+            background-image: url(https://vverner.com/wp-content/uploads/2020/11/ilya-pavlov-OqtafYT5kTw-unsplash-scaled.jpg);
+        }
     </style>
 </head>
 
@@ -98,12 +123,12 @@
                 <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
                 <li class="nav-item"><a class="nav-link" href="#sobre-min">Sobre Mim</a></li>
                 <li class="nav-item"><a class="nav-link" href="#curriculo">Currículo</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contatos</a></li>
             </ul>
         </div>
     </nav>
     <section class="jumbotron text-center corPrimaria">
-        <div class="container">
+        <div class="container" href="#top">
             <img class="foto-Perfil" src="../img/MinhaFoto.png" alt="Não foi possível carregar a imagem!">
             <h1 class="jumbotron-heading titulosBrancos">
                 <font style="vertical-align: inherit;">
@@ -124,13 +149,15 @@
                 </a>
                 <a href="#contato" class="btn btn-dark">
                     <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">Contato</font>
+                        <font style="vertical-align: inherit;">Contatos</font>
                     </font>
                 </a>
             </p>
+            <!--
             <a href="https://www.linkedin.com/in/lucas-pereira-1bb851201/"><i class="icones fab fa-linkedin"></i></a>
             <a href="https://www.instagram.com/lucaspereira6630?r=nametag"><i class="icones fab fa-instagram"></i></a>
             <a href="https://github.com/PereiraLegend"><i class="icones fab fa-github"></i></a>
+            -->
         </div>
     </section>
     <div class="album py-5 bg-light" id="projetos">
@@ -198,34 +225,47 @@
     <section class="jumbotron text-center corPrimaria">
         <div class="containe" id="sobre-min">
             <h2 class="jumbotron-heading titulosBrancos">Sobre Mim</h2>
-            <p> Bom dia, sou o Lucas, atualmente cursando o 5º período do curso de Ciências da Computação pela
-                Universidade Estácio de Sá, com previsão para </p>
-            <p>minha formação em 2023, possuo experiência em Desenvolvimento Web para HTML, CSS e JS(javascript),
-                linguagens de programação próriamente ditas </p>
-            <p>como C/C++, JAVA e Python, bem como 'desenvolvimento' em UML, onde nas três últimas citadas possuo
-                certificados de conclusão de cursos nas </p>
-            <p>mesmas, bem como também o desenvolvimento de banco de dados em MySQL;</p>
+            <p>      
+                Bom dia, sou o Lucas, atualmente cursando o 5º período do curso de Ciências da Computação pela
+            Universidade Estácio de Sá, com previsão para minha formação em 2023, possuo experiência em Desenvolvimento Web para HTML, CSS e JS(javascript),
+            linguagens de programação próriamente ditas como C/C++, JAVA e Python, bem como 'desenvolvimento' em UML, onde nas três últimas citadas possuo
+            certificados de conclusão de cursos nas mesmas, bem como também o desenvolvimento de banco de dados em MySQL;
+            </p>
+            <p>
+                Atualmente busco uma oportunidade para me inserir no mercado de trabalho, utilizando meus
+            conhecimentos adquiridos através de estudos na área no decorrer dos meus períodos de
+            aprendizagem, viso o meu crescimento através da experiência que possuo e que irei
+            adquirir, além de também sempre procurar ascender cada vez mais aos níveis mais altos.
+            </p>
         </div>
     </section>
     
     <section class="jumbotron text-center ">
         <div class="containe" id="curriculo">
             <h2 class="jumbotron-heading  titulosVerdes">Currículo</h2>
-            <p>Obs.: Desculpe, essa parte ainda está em criação :/</p>
+            <p>Para fazer o download ou visualizar o meu currículo: </p>
+            <a href="../pdf/Curriculo_Lucas_Pereira_Dos_Santos_Telefone_981675580.pdf" class="btn btn-secondary corBotao" download>Clique aqui</a>
         </div>
     </section>
 
     <section class="corPrimaria">
         <div id="contato">
-            <div class="container-fluid">
-                <h3 style="padding-top: 60px; margin-bottom: 0px;" class="text-center titulosBrancos">Disponivél para Oportunidades</h3>
-                <a href="mailto:Pereirapro123@gmail.com"><h4 style="padding-bottom: 60px; margin-bottom: 0px;"class="text-center">Pereirapro123@gmail.com</h4></a>
+            <div class="container-fluid" style="padding-bottom: 60px; margin-bottom: 0px;">
+                <h3 style="padding-top: 60px; margin-bottom: 0px;" class="text-center titulosBrancos">Contatos</h3>
+                <center>
+                <a href="mailto:Pereirapro123@gmail.com"><h4 style="padding-bottom: 10px; margin-bottom: 0px;"class="text-center">Pereirapro123@gmail.com</h4></a>
+                <a href="https://www.linkedin.com/in/lucas-pereira-1bb851201/" style="height: 100px;width: 100px;"><i class="icones fab fa-linkedin" ></i></a>
+                <a href="https://www.instagram.com/lucaspereira6630?r=nametag"><i class="icones fab fa-instagram"></i></a>
+                <a href="https://github.com/PereiraLegend" ><i class="icones fab fa-github"></i></a>
+                <a href="https://wa.me/qr/ZIYEZ56ZUADXM1" ><i class="icones fab fa-whatsapp"></i></a>
+                </center>
             </div>
         </div>
     </section>
 
     <footer class="text-center corSecundaria textoFooter">
-        <p>Copyright 2021 Meu Site Portifólio</p>
+        <a href="#top" class="glyphicon glyphicon-chevron-up botaoRetorno "><img title="Voltar ao topo" src="../img/seta-dupla-para-cima.png" class="tamanhoImagem" ></a>
+        <p>Copyright 2022 Meu Site Portifólio</p>
     </footer>
 </body>
 
