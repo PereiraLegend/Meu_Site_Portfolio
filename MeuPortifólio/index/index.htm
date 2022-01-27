@@ -29,7 +29,7 @@
         }
 
         .corPrimaria {
-            background-color:  rgb(92, 221, 178);
+            background-color: rgb(92, 221, 178);
         }
 
         .corSecundaria {
@@ -74,26 +74,27 @@
         }
 
         .menu {
-            position: fixed;
+            position: fixed ;
             top: 0px;
             left: 0px;
             width: 100%;
         }
+
         html {
             scroll-behavior: smooth;
         }
 
-        .corBotao{
-            color:rgb(92, 221, 178);
+        .corBotao {
+            color: rgb(92, 221, 178);
         }
 
         .botaoRetorno {
-            position:fixed;
+            position: fixed;
             right: 50px;
             bottom: 100px;
             color: white;
             border-radius: 10%;
-            
+
         }
 
         .tamanhoImagem {
@@ -104,6 +105,7 @@
         .scrollToTop {
             display: none !important;
         }
+
         body {
             background-image: url(https://vverner.com/wp-content/uploads/2020/11/ilya-pavlov-OqtafYT5kTw-unsplash-scaled.jpg);
         }
@@ -111,13 +113,14 @@
 </head>
 
 <body>
-    <nav class="corSecundaria navbar navbar-expand-lg navbar-light menu">
+    <nav class="corSecundaria navbar navbar-expand-lg navbar-light menu" style="position: absolute; position: fixed;">
         <a class="navbar-brand" href="#">Lucas Pereira</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div  class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto"></ul>
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
@@ -165,17 +168,18 @@
     <div class="album py-5 bg-light" id="projetos">
         <div class="container">
             <h2 class="jumbotron-heading text-center titulosVerdes">Projetos</h2>
-            
+
             <div class="row">
                 <div class="col-md-6">
                     <div class="card mb-4 box-shadow">
                         <img class="card-img-top"
                             data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
                             alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                            src="../img/Captura de tela sistema bibliotecario.png"
-                            data-holder-rendered="true">
+                            src="../img/Captura de tela sistema bibliotecario.png" data-holder-rendered="true">
                         <div class="card-body">
-                            <p class="card-text"><b><center>Sistema Bibliotecário</center></b></p>
+                            <p class="card-text"><b>
+                                    <center>Sistema Bibliotecário</center>
+                                </b></p>
                             <p class="card-text">Eu criei esse projeto utilizando: </p>
                             <ul>
                                 <li>Java</li>
@@ -199,10 +203,11 @@
                         <img class="card-img-top"
                             data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
                             alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                            src="../img/Captura de tela jogos simples em python.png"
-                            data-holder-rendered="true">
+                            src="../img/Captura de tela jogos simples em python.png" data-holder-rendered="true">
                         <div class="card-body">
-                            <p class="card-text"><b><center>Jogos Simples Em Python</center></b></p>
+                            <p class="card-text"><b>
+                                    <center>Jogos Simples Em Python</center>
+                                </b></p>
                             <p class="card-text">Eu criei esse projeto utilizando: </p>
                             <ul>
                                 <li>Python</li>
@@ -227,26 +232,32 @@
     <section class="jumbotron text-center corPrimaria">
         <div class="containe" id="sobre-min">
             <h2 class="jumbotron-heading titulosBrancos">Sobre Mim</h2>
-            <p>      
-                Bom dia, sou o Lucas, atualmente cursando o 5º período do curso de Ciências da Computação pela
-            Universidade Estácio de Sá, com previsão para minha formação em 2023, possuo experiência em Desenvolvimento Web para HTML, CSS e JS(javascript),
-            linguagens de programação próriamente ditas como C/C++, JAVA e Python, bem como 'desenvolvimento' em UML, onde nas três últimas citadas possuo
-            certificados de conclusão de cursos nas mesmas, bem como também o desenvolvimento de banco de dados em MySQL;
-            </p>
-            <p>
-                Atualmente busco uma oportunidade para me inserir no mercado de trabalho, utilizando meus
-            conhecimentos adquiridos através de estudos na área no decorrer dos meus períodos de
-            aprendizagem, viso o meu crescimento através da experiência que possuo e que irei
-            adquirir, além de também sempre procurar ascender cada vez mais aos níveis mais altos.
-            </p>
+            <div>
+                <p>
+                    Bom dia, sou o Lucas, atualmente cursando o 5º período do curso de Ciências da Computação pela
+                    Universidade Estácio de Sá, com previsão para minha formação em 2023, possuo experiência em
+                    Desenvolvimento Web para HTML, CSS e JS(javascript),
+                    linguagens de programação próriamente ditas como C/C++, JAVA e Python, bem como 'desenvolvimento' em
+                    UML, onde nas três últimas citadas possuo
+                    certificados de conclusão de cursos nas mesmas, bem como também o desenvolvimento de banco de dados
+                    em MySQL;
+                </p>
+                <p>
+                    Atualmente busco uma oportunidade para me inserir no mercado de trabalho, utilizando meus
+                    conhecimentos adquiridos através de estudos na área no decorrer dos meus períodos de
+                    aprendizagem, viso o meu crescimento através da experiência que possuo e que irei
+                    adquirir, além de também sempre procurar ascender cada vez mais aos níveis mais altos.
+                </p>
+            </div>
         </div>
     </section>
-    
+
     <section class="jumbotron text-center ">
         <div class="containe" id="curriculo">
             <h2 class="jumbotron-heading  titulosVerdes">Currículo</h2>
             <p>Para fazer o download ou visualizar o meu currículo: </p>
-            <a href="../pdf/Curriculo_Lucas_Pereira_Dos_Santos_Telefone_981675580.pdf" class="btn btn-secondary corBotao" download>Clique aqui</a>
+            <a href="../pdf/Curriculo_Lucas_Pereira_Dos_Santos_Telefone_981675580.pdf"
+                class="btn btn-secondary corBotao" download>Clique aqui</a>
         </div>
     </section>
 
@@ -255,18 +266,21 @@
             <div class="container-fluid" style="padding-bottom: 60px; margin-bottom: 0px;">
                 <h3 style="padding-top: 60px; margin-bottom: 0px;" class="text-center titulosBrancos">Contatos</h3>
                 <center>
-                <a href="mailto:Pereirapro123@gmail.com"><h4 style="padding-bottom: 10px; margin-bottom: 0px;"class="text-center">Pereirapro123@gmail.com</h4></a>
-                <a href="https://www.linkedin.com/in/lucas-pereira-1bb851201/" style="height: 100px;width: 100px;"><i class="icones fab fa-linkedin" ></i></a>
-                <a href="https://www.instagram.com/lucaspereira6630?r=nametag"><i class="icones fab fa-instagram"></i></a>
-                <a href="https://github.com/PereiraLegend" ><i class="icones fab fa-github"></i></a>
-                <a href="https://wa.me/qr/ZIYEZ56ZUADXM1" ><i class="icones fab fa-whatsapp"></i></a>
+                    <a href="mailto:Pereirapro123@gmail.com">
+                        <h4 style="padding-bottom: 10px; margin-bottom: 0px;" class="text-center">Pereirapro123@gmail.com</h4>
+                    </a>
+                    <a href="https://www.linkedin.com/in/lucas-pereira-1bb851201/" style="height: 100px;width: 100px;"><i class="icones fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/lucaspereira6630?r=nametag"><i class="icones fab fa-instagram"></i></a>
+                    <a href="https://github.com/PereiraLegend"><i class="icones fab fa-github"></i></a>
+                    <a href="https://wa.me/qr/ZIYEZ56ZUADXM1"><i class="icones fab fa-whatsapp"></i></a>
                 </center>
             </div>
         </div>
     </section>
 
     <footer class="text-center corSecundaria textoFooter">
-        <a href="#top" class="glyphicon glyphicon-chevron-up botaoRetorno "><img title="Voltar ao topo" src="../img/seta-dupla-para-cima.png" class="tamanhoImagem" ></a>
+        <a href="#top" class="glyphicon glyphicon-chevron-up botaoRetorno "><img title="Voltar ao topo"
+                src="../img/seta-dupla-para-cima.png" class="tamanhoImagem"></a>
         <p>Copyright 2022 Meu Site Portifólio</p>
     </footer>
 </body>
