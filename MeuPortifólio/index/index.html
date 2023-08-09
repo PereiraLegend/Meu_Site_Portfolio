@@ -1,288 +1,70 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Potfólio - Lucas Pereira</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-    <script src="https://kit.fontawesome.com/37020cc66c.js" crossorigin="anonymous"></script>
-    <style>
-        .foto-Perfil {
-            height: 100%;
-            /*width: auto;*/
-            max-height: 300px;
-            max-width: 300px;
-            border-radius: 30%;
-            overflow: hidden;
-        }
-
-        .corPrimaria {
-            background-color: rgb(92, 221, 178);
-        }
-
-        .corSecundaria {
-            background-color: gray;
-        }
-
-        p {
-            font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
-            color: black !important;
-        }
-
-        .icones {
-            padding-left: 5px;
-        }
-
-        .titulosBrancos {
-            /*text-decoration: underline;*/
-            /*text-underline-position: below;*/
-            /*padding-bottom: 20px;*/
-            /*text-transform: uppercase;*/
-            /*font-weight: 700;*/
-            color: white;
-        }
-
-        .titulosVerdes {
-            /*text-decoration: underline;*/
-            /*text-underline-position: below;*/
-            /*padding-bottom: 20px;*/
-            /*text-transform: uppercase;*/
-            /*font-weight: 700;*/
-            color: rgb(92, 221, 178);
-        }
-
-        .jumbotron {
-            margin-bottom: 0px;
-        }
-
-        .textoFooter {
-            margin: 0px;
-            padding-top: 15px;
-            padding-bottom: 15px;
-        }
-
-        .menu {
-            /*position: fixed ;*/
-            top: 0px;
-            left: 0px;
-            width: 100%;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        .corBotao {
-            color: rgb(92, 221, 178);
-        }
-
-        .botaoRetorno {
-            position: fixed;
-            right: 50px;
-            bottom: 100px;
-            color: white;
-            border-radius: 10%;
-
-        }
-
-        .tamanhoImagem {
-            width: 30px;
-            height: 30px;
-        }
-
-        .scrollToTop {
-            display: none !important;
-        }
-
-        body {
-            background-image: url(https://vverner.com/wp-content/uploads/2020/11/ilya-pavlov-OqtafYT5kTw-unsplash-scaled.jpg);
-        }
-    </style>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+    <title>Meu Portifólio</title>
 </head>
-
 <body>
-    <nav class="corSecundaria navbar navbar-expand-lg navbar-light menu" style="position: absolute;">
-        <a class="navbar-brand" href="#">Lucas Pereira</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <main class="margem-lados">
+        <div class="menu-nome"><b>LUCAS PEREIRA</b></div>
+        <div>Home</div>
+        <div>Meus Projetos</div>
+        <div>Contato</div>
+    </main>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto"></ul>
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
-                <li class="nav-item"><a class="nav-link" href="#sobre-min">Sobre Mim</a></li>
-                <li class="nav-item"><a class="nav-link" href="#curriculo">Currículo</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contato">Contatos</a></li>
-            </ul>
+    <div class="panel margem-lados">
+
+
+        <div class="panel-foto">
+            <img class="foto-principal" src="../img/foto.jpg" >
         </div>
-    </nav>
-    <section class="jumbotron text-center corPrimaria">
-        <div class="container" href="#top">
-            <br>
-            <br>
-            <img class="foto-Perfil" src="../img/20220107_140007.jpg" alt="Não foi possível carregar a imagem!">
-            <h1 class="jumbotron-heading titulosBrancos">
-                <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">Lucas Pereira</font>
-                </font>
-            </h1>
-            <p class="lead text-muted">
-                <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">Estudante do Curso para Bacharelado de Ciências da Computação
-                        - Desenvolvedor de Software</font>
-                </font>
-            </p>
-            <p>
-                <a href="#sobre-min" class="btn btn-dark">
-                    <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">Mais Sobre Mim</font>
-                    </font>
-                </a>
-                <a href="#contato" class="btn btn-dark">
-                    <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">Contatos</font>
-                    </font>
-                </a>
-            </p>
-            <!--
-            <a href="https://www.linkedin.com/in/lucas-pereira-1bb851201/"><i class="icones fab fa-linkedin"></i></a>
-            <a href="https://www.instagram.com/lucaspereira6630?r=nametag"><i class="icones fab fa-instagram"></i></a>
-            <a href="https://github.com/PereiraLegend"><i class="icones fab fa-github"></i></a>
-            -->
-        </div>
-    </section>
-    <div class="album py-5 bg-light" id="projetos">
-        <div class="container">
-            <h2 class="jumbotron-heading text-center titulosVerdes">Projetos</h2>
+        <div class="panel-titulo font-victorMono">
+            <p class="sub-titulo">Lucas Pereira, <br>Desenvolvedor Full Stack</p>
 
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top"
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                            src="../img/Captura de tela sistema bibliotecario.png" data-holder-rendered="true">
-                        <div class="card-body">
-                            <p class="card-text"><b>
-                                    <center>Sistema Bibliotecário</center>
-                                </b></p>
-                            <p class="card-text">Eu criei esse projeto utilizando: </p>
-                            <ul>
-                                <li>Java</li>
-                                <li>Mysql</li>
-                            </ul>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a
-                                        href="https://github.com/PereiraLegend/My_Public_Projects/tree/main/SistemaBibliotecario"><button
-                                            type="button" class="btn btn-sm btn-outline-success">Ver
-                                            Projeto</button></a>
-                                    <!--<button type="button" class="btn btn-sm btn-outline-primary">Código</button>-->
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top"
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                            src="../img/Captura de tela jogos simples em python.png" data-holder-rendered="true">
-                        <div class="card-body">
-                            <p class="card-text"><b>
-                                    <center>Jogos Simples Em Python</center>
-                                </b></p>
-                            <p class="card-text">Eu criei esse projeto utilizando: </p>
-                            <ul>
-                                <li>Python</li>
-                                <li></li>
-                            </ul>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a
-                                        href="https://github.com/PereiraLegend/My_Public_Projects/tree/main/JogosSimplesEmPython"><button
-                                            type="button" class="btn btn-sm btn-outline-success">Ver
-                                            Projeto</button></a>
-                                    <!--<button type="button" class="btn btn-sm btn-outline-primary">Código</button>-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <p class="texto-sub-titulo">Seja bem-vindo(a) ao meu site portifólio. Meu nome é Lucas
+                 e sou um desenvolvedor full stack com experiência em diversas 
+                 tecnologias e projetos. Aqui você pode conhecer um pouco mais 
+                 sobre mim, minhas habilidades, meus trabalhos realizados e meus 
+                 objetivos profissionais. Espero que goste!</p>
+            <button class="Contato">Entre em Contato <i class="fa-solid fa-paper-plane"></i></button>
         </div>
     </div>
-
-    <section class="jumbotron text-center corPrimaria">
-        <div class="containe" id="sobre-min">
-            <h2 class="jumbotron-heading titulosBrancos">Sobre Mim</h2>
-            <div>
-                <p>
-                    Bom dia, sou o Lucas, atualmente cursando o 5º período do curso de Ciências da Computação pela
-                    Universidade Estácio de Sá, com previsão para minha formação em 2023, possuo experiência em
-                    Desenvolvimento Web para HTML, CSS e JS(javascript),
-                    linguagens de programação próriamente ditas como C/C++, JAVA e Python, bem como 'desenvolvimento' em
-                    UML, onde nas três últimas citadas possuo
-                    certificados de conclusão de cursos nas mesmas, bem como também o desenvolvimento de banco de dados
-                    em MySQL;
-                </p>
-                <p>
-                    Atualmente busco uma oportunidade para me inserir no mercado de trabalho, utilizando meus
-                    conhecimentos adquiridos através de estudos na área no decorrer dos meus períodos de
-                    aprendizagem, viso o meu crescimento através da experiência que possuo e que irei
-                    adquirir, além de também sempre procurar ascender cada vez mais aos níveis mais altos.
-                </p>
-            </div>
+    <div class="margem-lados portifolio">
+        <h1><b>COMO TRABALHO</b></h1>
+        <div class="cards">
+            <section class="card">
+                <h3><i class="fa-solid fa-phone tamanho-icone" ></i></h3>
+                <h3>1º Passo</h3>
+                <p>Entre em contato comigo em monte seu orçamento</p>
+            </section>
+            <section class="card">
+                <h3><i class="fa-solid fa-comments tamanho-icone"></i></h3>
+                <h3>2º Passo</h3>
+                <p>Ao fecharmos o orçamento, começamos a pesquisa de idéias para os templates</p>
+            </section>
+            <section class="card">
+                <h3><i class="fa-solid fa-laptop-code tamanho-icone"></i></h3>
+                <h3>3º Passo</h3>
+                <p>Ao definirmos o template para o projeto começo a fase de desenvolvimento</p>
+            </section>
         </div>
-    </section>
-
-    <section class="jumbotron text-center ">
-        <div class="containe" id="curriculo">
-            <h2 class="jumbotron-heading  titulosVerdes">Currículo</h2>
-            <p>Para fazer o download ou visualizar o meu currículo: </p>
-            <a href="../pdf/Curriculo_Lucas_Pereira_Dos_Santos_Telefone_981675580.pdf"
-                class="btn btn-secondary corBotao" download>Clique aqui</a>
-        </div>
-    </section>
-
-    <section class="corPrimaria">
-        <div id="contato">
-            <div class="container-fluid" style="padding-bottom: 60px; margin-bottom: 0px;">
-                <h3 style="padding-top: 60px; margin-bottom: 0px;" class="text-center titulosBrancos">Contatos</h3>
-                <center>
-                    <a href="mailto:Pereirapro123@gmail.com">
-                        <h4 style="padding-bottom: 10px; margin-bottom: 0px;" class="text-center">Pereirapro123@gmail.com</h4>
-                    </a>
-                    <a href="https://www.linkedin.com/in/lucas-pereira-1bb851201/" style="height: 100px;width: 100px;"><i class="icones fab fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/lucaspereira6630?r=nametag"><i class="icones fab fa-instagram"></i></a>
-                    <a href="https://github.com/PereiraLegend"><i class="icones fab fa-github"></i></a>
-                    <a href="https://wa.me/qr/ZIYEZ56ZUADXM1"><i class="icones fab fa-whatsapp"></i></a>
-                </center>
-            </div>
-        </div>
-    </section>
-
-    <footer class="text-center corSecundaria textoFooter">
-        <a href="#top" class="glyphicon glyphicon-chevron-up botaoRetorno "><img title="Voltar ao topo"
-                src="../img/seta-dupla-para-cima.png" class="tamanhoImagem"></a>
-        <p>Copyright 2022 Meu Site Portifólio</p>
-    </footer>
+    </div>
+    <div class="margem-lados portifolio">
+        <h1><b>MEUS PROJETOS</b></h1>
+        <p>Olá, seja bem-vindo ao meu site portifólio! Meu nome é Lucas e sou um desenvolvedor full stack apaixonado por tecnologia e inovação. Tenho experiência em criar soluções web dinâmicas, responsivas e seguras, usando as melhores ferramentas e práticas do mercado. Aqui você pode conhecer um pouco mais sobre mim, meus projetos, minhas habilidades e meus contatos. Espero que goste do meu trabalho e fique à vontade para entrar em contato comigo se precisar de um desenvolvedor competente e criativo.
+        </p>
+    </div>
+    <div class="margem-lados portifolio">
+        <h1>CONTATOS</h1>
+        <dv class="contatos">
+            <section><i class="fa-brands fa-square-whatsapp logo-contato"></i></section>
+            <section><i class="fa-brands fa-linkedin logo-contato"></i></section>
+            <section><i class="fa-solid fa-square-envelope logo-contato"></i></section>
+            <section><i class="fa-brands fa-square-github logo-contato"></i></section>
+        </dv>
+    </div>
 </body>
-
 </html>
