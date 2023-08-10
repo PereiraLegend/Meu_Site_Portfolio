@@ -86,7 +86,7 @@ div .foto-principal {
 }
 
 button{
-    width: 450px;
+    width: 380px;
     height: 70px;
     border-radius: 10px;
     font-family: 'REM', sans-serif;
@@ -101,6 +101,78 @@ button:hover{
     border: none;
     transform: scale(1.05);
     transition: 0.2s;
+}
+
+.btns-titulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-dawload button{
+    width:300px;
+}
+
+.sobre {
+    display: flex;
+}
+
+.sobre-texto {
+    width: 50%;
+    margin-top: 60px;
+}
+
+.sobre-texto h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.sobre-texto p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.sobre-img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-img img{
+    width: 500px;
+    height: auto;
+}
+
+.habilidades {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+ margin-bottom: 200px;
+
+}
+
+.habilidade-img{
+    
+}
+
+.habilidade-img img {
+    width: 120px;
+    height: auto;
+}
+
+.habilidade-texto h2 {
+    margin-left: 50px;
+}
+
+.habilidade-texto p {
+    font-size: 50px;
+    margin-left: 50px;
 }
 
 .portifolio h1{
@@ -154,6 +226,154 @@ button:hover{
     margin-left: 50px;
     margin-right: 50px;
 }
+
+.card2 {
+    background-color: rgb(63, 63, 90);
+    width: 300px;
+    height: 350px;
+}
+
+.cards2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.projetos {
+    display: flex;
+    margin-bottom:60px;
+}
+
+.carossel {
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    width: 650px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.img {
+    object-fit: cover;
+    width: 650px;
+    height: auto;
+}
+
+.projetos-topo {
+    margin-top: 160px;
+}
+
+.texto-projetos {
+    width: 50%;
+}
+
+.texto-projetos2 {
+    width: 50%;
+}
+
+.texto-projetos h2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.texto-projetos p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 21px;
+    line-height: 35px;
+}
+
+.btn-projetos {
+    display: flex;/*
+    flex-direction: row;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-projetos button {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size:40px;
+    width: 200px;
+}
+
+.texto-projetos2 {
+    margin-top: 100px;
+}
+
+.texto-projetos2 h2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.texto-projetos2 p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 21px;
+    line-height: 35px;
+}
+
+.footer {
+    background-color: rgb(20, 19, 19);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-voltar-top  button{
+    display:none;
+    position: fixed;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    bottom: 80px;
+    right: 100px;
+    outline: none;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+#back-to-top-btn:hover {
+    background-color: aliceblue;
+}
+
+@media(max-width: 992){
+    .btn-voltar-top button {
+
+    }
+}
+/*
+.texto-projetos2 button {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 21px;
+    width: 200px;
+}
+*/
 /*
 div .panel-titulo p {
     margin-top: 20px;
