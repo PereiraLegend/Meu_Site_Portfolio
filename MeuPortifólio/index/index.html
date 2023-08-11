@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/main-mobile.css">
     <link rel="stylesheet" href="../fontawesome/css/all.min.css">
     <title>Meu Portifólio</title>
 </head>
 <body>
-    <main class="margem-lados">
-        <div class="menu-nome"><b>LUCAS PEREIRA</b></div>
-        <div>Home</div>
-        <div>Meus Projetos</div>
-        <div>Contato</div>
+    <main class="margem-lados fomatacao-link" >
+        <div class="menu-nome"><b><spam class="cor-t1">LUCAS</spam> PEREIRA</b></div>
+        <a href="#Sobre"><div>Home</div></a>
+        <a href="#Projetos"><div>Meus Projetos</div></a>
+        <a href="#Contatos"><div>Contato</div></a>
     </main>
 
     <div class="panel margem-lados">
@@ -20,29 +21,35 @@
             <img class="foto-principal" src="../img/foto.jpg" >
         </div>
         <div class="panel-titulo font-victorMono">
-            <p class="sub-titulo">Lucas Pereira, <br>Desenvolvedor Full Stack</p>
+            <p class="sub-titulo">Lucas Pereira, <br><spam class="cor-t2">Desenvolvedor</spam> Full Stack</p>
 
             <p class="texto-sub-titulo">Seja bem-vindo(a) ao meu site portifólio. Meu nome é Lucas
                  e sou um desenvolvedor full stack com experiência em diversas 
                  tecnologias e projetos. Aqui você pode conhecer um pouco mais 
-                 sobre mim, minhas habilidades, meus trabalhos realizados e meus 
+                 sobre mim, minhas habilidades, meus trabalhos realizados e
                  objetivos profissionais. Espero que goste!</p>
             <div class="btns-titulo">
-                <button class="Contato">Entre em Contato <i class="fa-solid fa-paper-plane"></i></button>
+                <a href="#Contatos">
+                    <button class="Contato">Entre em Contato <i class="fa-solid fa-paper-plane"></i></button>
+
+                </a>
                 <div class="btn-dawload">
-                    <button href="../pdf/" class="Contato">Download CV <i class="fa-solid fa-download"></i></button>
+                    <a href="../pdf/Currículo_Lucas_Pereira.pdf">
+                        <button class="Contato espacamento-mobile-btn">Download CV <i class="fa-solid fa-download "></i></button>
+
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="btn-voltar-top">
-        <button id="back-to-top-btn"><i class="fa-solid fa-angles-up fa-shake"></i></button>
+        <button class="alinhamento-botao-topo btnsaida" id="back-to-top-btn"><i class="fa-solid fa-angles-up fa-shake"></i></button>
     </div>
     
-    <div class="margem-lados sobre">
+    <div id="Sobre" class="margem-lados sobre">
         <div class="sobre-texto">
-            <h1>Sobre Min</h1>
+            <h1>Sobre Mim</h1>
             <p>Sou um estudante do Curso de Ciências da Computação pela Estácio, atualmente 
                 no 8º período do mesmo, busco me tornar um Desenvolvedor Full Stack com 
                 conhecimento para todas as tecnologias existentes do mercado, almejando 
@@ -55,13 +62,13 @@
         </div>
     </div>
 
-    <div class="margem-lados habilidades">
+    <div class="margem-lados habilidades skills-mobile">
         <div class="habilidade-img">
             <img src="../img/img2.png" alt="" srcset="">
         </div>
-        <div class="habilidade-texto">
+        <div class="habilidade-texto ">
             <h2>Skills</h2>
-            <p><i class="fa-brands fa-python"></i>  <i class="fa-brands fa-java"></i>  <i class="fa-solid fa-c"></i>  <i class="fa-brands fa-html5"></i>  <i class="fa-brands fa-css3-alt"></i>  <i class="fa-brands fa-node-js"></i>  <i class="fa-solid fa-database"></i>  <i class="fa-brands fa-github"></i></p>
+            <p><i class="fa-brands fa-python"></i>  <i class="fa-brands fa-java"></i>  <i class="fa-solid fa-c"></i>  <i class="fa-brands fa-html5"></i>  <i class="fa-brands fa-css3-alt"></i>  <i class="fa-brands fa-node-js"></i>  <i class="fa-solid fa-database"></i>  <i class="fa-brands fa-github"></i> <i class="fa-brands fa-git-alt"></i></p>
         </div>
     </div>
 
@@ -85,7 +92,7 @@
             </section>
         </div>
     </div>
-    <div class="margem-lados portifolio">
+    <div id="Projetos" class="margem-lados portifolio">
         <h1><b>MEUS PROJETOS</b></h1>
         <div class="projetos">
             <div class="carossel">
@@ -98,35 +105,56 @@
             </div>
             <div class="texto-projetos">
                 <h2>Acesse Meus Trabalhos </h2>
-                <p>Veja meus projetos já finalizados e os que estão em andamento no GitHub</p>
+                <p>Veja meus projetos já finalizados e os que estão em andamento no meu GitHub</p>
                 <div class="btn-projetos">
-                    <button class="Contato"><i class="fa-brands fa-github"></i></button>
+                    <a href="https://github.com/PereiraLegend/My_Public_Projects/tree/main">
+                        <button class="Contato"><i class="fa-brands fa-github"></i></button>
+                    </a>
                    
                 </div>
             </div>
         </div>
         
-        <div class="projetos projetos-topo">
+        <div class="projetos projetos-topo projetos-faco-mobile">
             <div class="texto-projetos2">
                 <h2>Como Faço?</h2>
-                <p>Utilizando a melhores tecnologias do mercado, ao lado de uma excelente 
-                    estratégia de planejamento e preparo, qualquer trabalho, seu projeto
-                    será entregue o mais rápido possível</p>
+                <p>Utilizando as melhores tecnologias do mercado, ao lado de uma excelente 
+                    estratégia de planejamento e preparo, seu projeto
+                    será entregue o mais rápido possível, com 100% de garantia na qualidade</p>
             </div>
-            <div class="">
+            <div class="img-projetos">
                 <img class="img" src="../img/img1.png" alt="" srcset="">
             </div>
         </div>
         
 
     </div>
-    <div class="margem-lados portifolio">
+    <div class="margem-lados portifolio" id="Contatos">
         <h1>CONTATOS</h1>
         <div class="contatos">
-            <section><i class="fa-brands fa-square-whatsapp logo-contato"></i></section>
-            <section><i class="fa-brands fa-linkedin logo-contato"></i></section>
-            <section><i class="fa-solid fa-square-envelope logo-contato"></i></section>
-            <section><i class="fa-brands fa-square-github logo-contato"></i></section>
+            <section class="formatacao-link-contatos">
+                <a href="https://api.whatsapp.com/send?phone=5586981675580">
+                    <i class="fa-brands fa-square-whatsapp logo-contato"></i>
+                </a>
+            </section>
+
+            <section class="formatacao-link-contatos">
+                <a href="https://www.linkedin.com/in/lucas-pereira-1bb851201">
+                    <i class="fa-brands fa-linkedin logo-contato"></i>
+                </a>
+            </section>
+
+            <section class="formatacao-link-contatos">
+                <a href="">
+                    <i class="fa-solid fa-square-envelope logo-contato"></i>
+                </a>
+            </section>
+            
+            <section class="formatacao-link-contatos">
+                <a href="https://github.com/PereiraLegend">
+                    <i class="fa-brands fa-square-github logo-contato"></i>
+                </a>
+            </section>
         </div>
     </div>
     <footer class="footer">
@@ -134,5 +162,6 @@
     </footer>
     <script src="../js/script.js" defer></script>
     <script src="../js/scriptVT.js"></script>
+    <script src="../js/script-animacao-aparecer.js"></script>
 </body>
 </html>

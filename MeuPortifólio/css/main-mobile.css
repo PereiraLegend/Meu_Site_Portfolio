@@ -1,0 +1,75 @@
+@media(min-width:1700px){
+    .espacamento-mobile-btn {
+        margin-left: 20px;
+    }
+}
+@media(max-width:1700px){
+    div .foto-principal {
+        width: 450px;
+        height: auto;
+    }
+    .espacamento-mobile-btn {
+        margin-left: 20px;
+    }
+}
+@media(max-width:1500px) {
+    .btns-titulo {
+        display: flex;
+        justify-content: space-around;
+        margin-left: -500px;
+    }
+    .skills-mobile {
+        margin-top: 60px;
+    }
+    .projetos-faco-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .texto-projetos2{
+        width:80%;
+    }
+}
+@media(max-width:1281px) {
+    .margem-lados {
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+    .btns-titulo {
+        display: flex;
+        justify-content: space-around;
+        margin-left: -500px;
+    }
+    div .foto-principal {
+        width: 500px;
+        height: auto;
+        margin-right: 60px;
+        margin-top: -80px;
+    }
+    .skills-mobile {
+        margin-top: 60px;
+    }
+}
+@media(max-width:1366px) {
+    .margem-lados {
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+    .btns-titulo {
+        display: flex;
+        justify-content: space-around;
+        margin-left: -500px;
+    }
+    div .foto-principal {
+        width: 500px;
+        height: auto;
+        margin-right: 60px;
+        margin-top: -80px;
+    }
+
+}
+@media(max-width:1220px){
+    main .menu-nome {
+        padding-right: 100px;
+    }
+}

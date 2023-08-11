@@ -1,5 +1,5 @@
 //Parte Voltar ao Topo
-
+/*
 const botaoVoltarTopo = document.querySelector("#back-to-top-btn")
 window.addEventListener("scroll", scrollFunction);
 function.scrollFunction(){
@@ -26,3 +26,19 @@ botaoVoltarTopo.addEventListener("click", backToTop)
 function backToTop(){
     window.scrollTo(0,0)
 }
+*/
+const btn =document.getElementById("back-to-top-btn")
+btn.addEventListener("click", function(){
+  window.scrollTo(0,0)
+})
+
+document.addEventListener('scroll', ocultar)
+
+function ocultar(){
+  if(window.scrollY > 20){
+    btn.style.display = "flex"
+  } else {
+    btn.style.display = "none"
+  }
+}
+ocultar()
