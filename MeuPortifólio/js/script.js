@@ -10,5 +10,3 @@ function carrossel(){
     imgs.style.transform = `translateX(${-idx * 650}px)`;
 }
 setInterval(carrossel, 1800);
-
-// Parte Voltar ao Topo
