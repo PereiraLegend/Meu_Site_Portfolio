@@ -9,13 +9,34 @@
     <title>Meu Portifólio</title>
 </head>
 <body>
-    <main class="margem-lados fomatacao-link" >
+    <main class="margem-lados fomatacao-link menu-normal-desktop" >
         <div class="menu-nome"><b><spam class="cor-t1">LUCAS</spam> PEREIRA</b></div>
         <a href="#Sobre"><div>Home</div></a>
         <a href="#Projetos"><div>Meus Projetos</div></a>
         <a href="#Contatos"><div>Contato</div></a>
     </main>
 
+    <div class="menu-burger-mobile margem-lados">
+        
+        <nav class="nav-bar">
+            <div class="al-menu">
+                <div class="menu-nome"><b><spam class="cor-t1">LUCAS</spam> PEREIRA</b></div>
+                <button onclick="menuShow()"><div><p class="mobile-menu-icon"><i id="elemento" class="fa-solid fa-bars"></i></p></div></button>
+                
+            </div>
+
+            <div class="nav-list mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="#Sobre" class="nav-lin">Sobre</a></li>
+                    <li class="nav-item"><a href="#Projetos" class="nav-lin">Projetos</a></li>
+                    <li class="nav-item"><a href="#Contatos" class="nav-lin">Contatos</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+    
+    
     <div class="panel margem-lados">
         <div class="panel-foto">
             <img class="foto-principal" src="../img/foto.jpg" >
@@ -68,19 +89,19 @@
         </div>
         <div class="habilidade-texto ">
             <h2>Skills</h2>
-            <p><i class="fa-brands fa-python"></i>  <i class="fa-brands fa-java"></i>  <i class="fa-solid fa-c"></i>  <i class="fa-brands fa-html5"></i>  <i class="fa-brands fa-css3-alt"></i>  <i class="fa-brands fa-node-js"></i>  <i class="fa-solid fa-database"></i>  <i class="fa-brands fa-github"></i> <i class="fa-brands fa-git-alt"></i></p>
+            <p><i class="fa-brands fa-python"></i>  <i class="fa-brands fa-java"></i>  <i class="fa-solid fa-c"></i>  <i class="fa-brands fa-html5"></i>  <i class="fa-brands fa-css3-alt"></i>  <i class="fa-brands fa-node-js"></i>  <i class="fa-solid fa-database"></i>  <i class="fa-brands fa-github"></i> <i class="fa-brands fa-git-alt"></i>  <i class="fa-brands fa-linux"></i></p>
         </div>
     </div>
 
     <div class="margem-lados portifolio">
         <h1><b>COMO TRABALHO</b></h1>
         <div class="cards">
-            <section class="card">
+            <section class="card c1">
                 <h3><i class="fa-solid fa-phone tamanho-icone" ></i></h3>
                 <h3>1º Passo</h3>
                 <p>Entre em contato comigo em monte seu orçamento</p>
             </section>
-            <section class="card">
+            <section class="card c1">
                 <h3><i class="fa-solid fa-comments tamanho-icone"></i></h3>
                 <h3>2º Passo</h3>
                 <p>Ao fecharmos o orçamento, começamos a pesquisa de idéias para os templates</p>
@@ -131,7 +152,7 @@
     </div>
     <div class="margem-lados portifolio" id="Contatos">
         <h1>CONTATOS</h1>
-        <div class="contatos">
+        <div class="contatos alinhamento-contatos">
             <section class="formatacao-link-contatos">
                 <a href="https://api.whatsapp.com/send?phone=5586981675580">
                     <i class="fa-brands fa-square-whatsapp logo-contato"></i>
@@ -163,5 +184,6 @@
     <script src="../js/script.js" defer></script>
     <script src="../js/scriptVT.js"></script>
     <script src="../js/script-animacao-aparecer.js"></script>
+    <script src="../js/script-menu-responsivo.js"></script>
 </body>
 </html>
