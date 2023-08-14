@@ -30,7 +30,7 @@ main {
     display: flex;
     justify-content: space-between;
     font-size: 25px;
-    margin-top: 75px;
+    margin-top: 35px;
     margin-bottom: 80px;
 }
 
@@ -263,7 +263,7 @@ button:hover{
     margin-top: -450px
 }
 
-.formatacao-link-contatos a{
+.formatacao-link-contatos{
     text-decoration: none;
     color:aliceblue;
 }
@@ -271,6 +271,10 @@ button:hover{
     font-size: 70px;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+.contatos-mobile {
+    text-align: center;
 }
 
 .card2 {
@@ -405,6 +409,7 @@ button:hover{
     align-items: center;
     justify-content: center;
     margin-left: 14px;
+    margin-top: 13px;
 }
 
 #back-to-top-btn:hover {
