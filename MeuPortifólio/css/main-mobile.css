@@ -149,8 +149,8 @@
     .card {
         margin-top: 20px;
         margin-bottom: 20px;
-        min-width: 500px;
-        height: 200px;
+        min-width: 80%;
+        height: 250px;
     }
     .img-projetos img{
         width: 300px;
@@ -263,5 +263,17 @@
         min-width: 300px;
         height: 200px;
     }
-    
+}
+@media(max-width: 520){
+    .margem-lados {
+        margin: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .card {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        min-width: 300px;
+        height: 100px;
+    }
 }
