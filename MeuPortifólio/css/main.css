@@ -15,6 +15,11 @@
     font-family: 'REM', sans-serif;
 }
 
+*:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  }
+  
 html {
     scroll-behavior:smooth;
     scroll-snap-time: 2s;
