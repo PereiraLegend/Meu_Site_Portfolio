@@ -102,6 +102,7 @@ div .foto-principal {
     width: 400px;
     height: auto;
     border-radius: 50%;
+    rotate: 23deg;
 }
 
 .font-victorMono {
@@ -154,7 +155,8 @@ button:hover{
 }
 
 .sobre-texto h1{
-    display: flex;
+    display: flex;        margin-left: 15px;
+    margin-right: 15px;
     align-items: center;
     justify-content: center;
     margin-bottom: 35px;
@@ -389,7 +391,9 @@ button:hover{
     align-items: center;
     justify-content: center;
 }
-
+.b-ativo {
+    display: none;
+}
 .btn-voltar-top  button{
     display:block;
     position: fixed;
